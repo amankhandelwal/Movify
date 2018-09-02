@@ -1,7 +1,9 @@
-## This app has been created with **create-react-app** 
+## This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 To run the app please extract the Source Code. Navigate to the **build** Folder.
-## The app possesses ALL the features from Minimum Requirement + Plus Point + Extra Work
-Autocomplete has not been implemented because it is redundant as the app provides ***real-time search***
+
+# About
+This challenge was a hiring challenge by ThoughtWorks and I was supposed to make the UI from an API i was provided with. The Website was supposed to be a Movie Search Website. This was a 12 hour challenge.
+
 ## Jist of Features
 - Real Time Search
 - Responsive Layout
@@ -14,35 +16,16 @@ Autocomplete has not been implemented because it is redundant as the app provide
 
 ### The app is designed to work on all screen sizes.  ( It is preferred to Reload the app when changing Screen Sizes )
 Extra data (images, description, rating)  used has been scraped from the Official IMDB website from the links provided in the API. 
-### checkout my portfolio at  [amankhandelwal.me][1]{:target='_blank'}
-## Given below are the screenshots of the app (Images will be uploaded once the challenge is over)
+
+## Given below are the screenshots of the app
 # Desktop Version
-### Image 1
-![enter image description here][2]{:target='_blank'}
-### Image 2
-![enter image description here][3]{:target='_blank'}
-### Image 3
-![enter image description here][4]{:target='_blank'}
-### Image 4
-![enter image description here][5]{:target='_blank'}
+![Screenshot PC 1](/screenshots/1.png "As seen on chrome on a 15' Laptop")
+![Screenshot PC 2](/screenshots/2.png "As seen on chrome on a 15' Laptop")
+![Screenshot PC 3](/screenshots/3.png "As seen on chrome on a 15' Laptop")
+![Screenshot PC 4](/screenshots/4.png "As seen on chrome on a 15' Laptop")
+![Screenshot PC 5](/screenshots/5.png "As seen on chrome on a 15' Laptop")
 # Mobile Version
-### Image 5
-![enter image description here][6]{:target='_blank'}
-### Image 6
-![enter image description here][7]{:target='_blank'}
-### Image 7
-![enter image description here][8]{:target='_blank'}
-### Image 8
-![enter image description here][9]{:target='_blank'}
-### Image 9
-![enter image description here][10]{:target='_blank'}
-  [1]: http://amankhandelwal.me
-  [2]: /screenshots/1.png
-  [3]: /screenshots/2.png
-  [4]: /screenshots/3.png
-  [5]: /screenshots/4.png
-  [6]: /screenshots/5.png
-  [7]: /screenshots/6.png
-  [8]: /screenshots/7.png
-  [9]: /screenshots/8.png
-  [10]: /screenshots/9.png
+![Screenshot Mobile 1](/screenshots/6.png "As seen on a Pixel 2")
+![Screenshot Mobile 2](/screenshots/7.png "As seen on a Pixel 2")
+![Screenshot Mobile 3](/screenshots/8.png "As seen on a Pixel 2")
+![Screenshot Mobile 4](/screenshots/9.png "As seen on a Pixel 2")
