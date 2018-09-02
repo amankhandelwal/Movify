@@ -1,0 +1,8 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
+	overflow-x: hidden;
+	background-image: linear-gradient(to left, #f9ed32, #ffbc24, #ff893e, #ff565d, #ee2a7b);
+	background-repeat: no-repeat;
+}

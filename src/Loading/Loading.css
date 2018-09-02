@@ -1,0 +1,20 @@
+.loading {
+	position: absolute;
+	border: 2px solid #777;
+	border-width: 3px 0px 0px 0px;
+	border-radius: 5vw;
+	width: 5vw;
+	height: 5vw;
+	left: 45vw;
+	margin: 5vw;
+	animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,52 @@
+.App-header {
+  flex: 1;
+  display: flex;
+  width: 98%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  height: 12vh;
+  background-color: #ffffff77;
+}
+.App-logo-link {
+  margin: 0% 5% 0% 2%;
+  text-decoration: none;
+}
+
+.App-title {
+  font-size: 2.7em;
+  color: #422;
+}
+.search {
+  width: 35vw;
+  background-color: transparent;
+  font-size: 1.1em;
+  border: none;
+  border-bottom: 2px solid #000;
+  padding: 1vw;
+  outline: none;
+}
+.search:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .App-logo {
+    height: 25px;
+  }
+  .App-title {
+    font-size: 1.5em;
+  }
+  .App-header {
+    justify-content: flex-start;
+  }
+  .search {
+    width: 60vw;
+    font-size: 1em;
+  }
+  .search::placeholder {
+    font-size: 0.8em;
+  }
+}

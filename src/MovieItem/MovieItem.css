@@ -1,0 +1,45 @@
+.movie-item {
+	background-color: #fff;
+	padding: 5px 10px;
+	margin: 5px;
+	text-align: left;
+	display: flex;
+	cursor: pointer;
+}
+.movie-item:hover {
+	background-color: #ccccccdd;
+}
+.item-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 2vw;
+}
+.item-right {
+	display: flex;
+	flex-direction: column;
+}
+.poster {
+	width: 100%;
+	object-fit: contain;
+}
+.title {
+	font-size: 1.8em;
+	color: #222;
+}
+.genre {
+	font-size: 1em;
+	font-weight: normal;
+	display: flex;
+	margin-bottom: 2px;
+	flex-wrap: wrap;
+}
+.genre-item {
+	background-color: transparent;
+	border: 2px solid #422;
+	color: #422;
+	padding: 7px 7px;
+	border-radius: 7px;
+	margin: 0px 3px;
+}

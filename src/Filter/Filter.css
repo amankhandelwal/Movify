@@ -1,0 +1,41 @@
+.filter-container {
+	background-color: #ffffff77;
+	display: block;
+	padding: 20px 5px;
+}
+.filter-header-container {
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+}
+.expanded {
+	justify-content: center;
+}
+.collapsed {
+	justify-content: flex-start;
+}
+.filter-header {
+	margin: 0px 30px;
+}
+.filters {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.langauge {
+	display: flex;
+	flex-direction: column;
+}
+.country {
+	display: flex;
+	flex-direction: column;
+}
+.options {
+	text-align: left;
+}
+.checkbox {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+}
