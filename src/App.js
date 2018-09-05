@@ -31,7 +31,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch(/*'https://billsplit-3e936.firebaseapp.com/API/data.json'*/ 'http://starlord.hackerearth.com/movieslisting')
+    /*'https://billsplit-3e936.firebaseapp.com/API/data.json' 'http://starlord.hackerearth.com/movieslisting'*/
+    fetch('https://cors-anywhere.herokuapp.com/https://coffee-shop-d6741.firebaseapp.com/API/data.json')
       .then(res => res.json())
       .then(data => {
         // Extract Language List and Country List
